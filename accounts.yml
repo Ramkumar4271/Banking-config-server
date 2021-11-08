@@ -9,4 +9,4 @@ accounts:
     - Mumbai
     - London
     - Washington
-  msg: Welcome to the Banking Accounts Default application read from GIT
+  msg: Welcome to the Banking Accounts Default application read from GIT just added to verify from Github
