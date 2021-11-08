@@ -1,0 +1,12 @@
+customers:
+  mailDetails:
+    from: default-customers@banking.com
+    port: '9000'
+    subject: Your customer Details from Banking Default Environment
+    hostName: default-customers@banking.com
+  build-version: '3'
+  activeBranches: 
+    - Mumbai
+    - London
+    - Washington
+  msg: Welcome to the Banking customers Default application

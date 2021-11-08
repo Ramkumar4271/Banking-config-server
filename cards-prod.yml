@@ -1,0 +1,12 @@
+cards:
+  mailDetails:
+    from: prod-cards@banking.com
+    port: '9040'
+    subject: Your card Details from Banking Prod Environment
+    hostName: prod-cards@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Chennai
+    - Berlin
+    - Indianapollis
+  msg: Welcome to the Banking cards Prod application

@@ -1,0 +1,12 @@
+loans:
+  mailDetails:
+    from: prod-loans@banking.com
+    port: '9040'
+    subject: Your loan Details from Banking Prod Environment
+    hostName: prod-loans@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Chennai
+    - Berlin
+    - Indianapollis
+  msg: Welcome to the Banking loans Prod application

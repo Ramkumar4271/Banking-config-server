@@ -1,0 +1,12 @@
+cards:
+  mailDetails:
+    from: default-cards@banking.com
+    port: '9000'
+    subject: Your Card Details from Banking Default Environment
+    hostName: default-cards@banking.com
+  build-version: '3'
+  activeBranches: 
+    - Mumbai
+    - London
+    - Washington
+  msg: Welcome to the Banking cards Default application

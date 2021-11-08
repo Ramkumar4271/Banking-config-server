@@ -1,0 +1,12 @@
+loans:
+  mailDetails:
+    from: dev-loans@banking.com
+    port: '9020'
+    subject: Your loan Details from Banking Dev Environment
+    hostName: dev-loans@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Indianapollis
+    - Berlin
+    - Chennai
+  msg: Welcome to the Banking loans Dev application

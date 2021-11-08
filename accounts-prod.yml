@@ -1,0 +1,12 @@
+accounts:
+  mailDetails:
+    from: prod-accounts@banking.com
+    port: '9040'
+    subject: Your Account Details from Banking Prod Environment
+    hostName: prod-accounts@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Chennai
+    - Berlin
+    - Indianapollis
+  msg: Welcome to the Banking Accounts Prod application

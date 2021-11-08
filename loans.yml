@@ -1,0 +1,12 @@
+loans:
+  mailDetails:
+    from: default-loans@banking.com
+    port: '9000'
+    subject: Your loan Details from Banking Default Environment
+    hostName: default-loans@banking.com
+  build-version: '3'
+  activeBranches: 
+    - Mumbai
+    - London
+    - Washington
+  msg: Welcome to the Banking loans Default application

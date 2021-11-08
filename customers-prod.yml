@@ -1,0 +1,12 @@
+customers:
+  mailDetails:
+    from: prod-customers@banking.com
+    port: '9040'
+    subject: Your customer Details from Banking Prod Environment
+    hostName: prod-customers@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Chennai
+    - Berlin
+    - Indianapollis
+  msg: Welcome to the Banking customers Prod application

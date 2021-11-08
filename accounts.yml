@@ -1,0 +1,12 @@
+accounts:
+  mailDetails:
+    from: default-accounts@banking.com
+    port: '9000'
+    subject: Your Account Details from Banking Default Environment
+    hostName: default-accounts@banking.com
+  build-version: '3'
+  activeBranches: 
+    - Mumbai
+    - London
+    - Washington
+  msg: Welcome to the Banking Accounts Default application read from file

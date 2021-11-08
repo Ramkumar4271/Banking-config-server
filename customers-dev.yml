@@ -1,0 +1,12 @@
+customers:
+  mailDetails:
+    from: dev-customers@banking.com
+    port: '9020'
+    subject: Your customer Details from Banking Dev Environment
+    hostName: dev-customers@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Indianapollis
+    - Berlin
+    - Chennai
+  msg: Welcome to the Banking customers Dev application

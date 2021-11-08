@@ -1,0 +1,12 @@
+cards:
+  mailDetails:
+    from: dev-cards@banking.com
+    port: '9020'
+    subject: Your Card Details from Banking Dev Environment
+    hostName: dev-cards@banking.com
+  build-version: '2'
+  activeBranches: 
+    - Indianapollis
+    - Berlin
+    - Chennai
+  msg: Welcome to the Banking cards Dev application
