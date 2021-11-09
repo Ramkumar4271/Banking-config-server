@@ -3,7 +3,7 @@ accounts:
     from: prod-accounts@banking.com
     port: '9040'
     subject: Your Account Details from Banking Prod Environment
-    hostName: {cipher}2b621a09be312e4c64452eb51c74b94666b41c7d1dcb35d8d89b62bc1e05bb05d4db143541f43093e959117935703620
+    hostName: 2b621a09be312e4c64452eb51c74b94666b41c7d1dcb35d8d89b62bc1e05bb05d4db143541f43093e959117935703620
   build-version: '2'
   activeBranches: 
     - Chennai
