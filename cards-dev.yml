@@ -10,3 +10,27 @@ cards:
     - Berlin
     - Chennai
   msg: Welcome to the Banking cards Dev application
+  
+info:
+  app:
+    version: 1.0.0
+    name: Cards Dev Microservice
+    description: Banking Cards Application
+    
+endpoints:
+  shutdown:
+    enabled: 'true'
+    
+eureka:
+  instance:
+    preferIpAddress: 'true '
+  client:
+    fetchRegistry: 'true'
+    registerWithEureka: 'true'
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+management:
+  endpoint:
+    shutdown:
+      enabled: 'true'
