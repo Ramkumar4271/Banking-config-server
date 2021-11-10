@@ -24,7 +24,7 @@ endpoints:
     
 eureka:
   instance:
-    preferIpAddress: 'true '
+    preferIpAddress: 'true'
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
