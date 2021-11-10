@@ -14,7 +14,7 @@ cards:
 info:
   app:
     version: 1.0.0
-    name: Cards Default Microservice
+    name: Cards Prod Microservice
     description: Banking Cards Application
     
 endpoints:
