@@ -10,3 +10,28 @@ accounts:
     - Berlin
     - Chennai
   msg: Welcome to the Banking Accounts Dev application added in Github
+
+
+info:
+  app:
+    version: 1.0.0
+    name: Accounts Dev Microservice
+    description: Banking Accounts Application
+    
+endpoints:
+  shutdown:
+    enabled: 'true'
+    
+eureka:
+  instance:
+    preferIpAddress: 'true '
+  client:
+    fetchRegistry: 'true'
+    registerWithEureka: 'true'
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+management:
+  endpoint:
+    shutdown:
+      enabled: 'true'
