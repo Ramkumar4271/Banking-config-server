@@ -40,8 +40,6 @@ endpoints:
 eureka:
   instance:
     preferIpAddress: 'true'
-    instanceId: ${server.address}:${server.port}
-    hostname: ${server.address}
     ipAddress: ${server.address}
   client:
     fetchRegistry: 'true'
