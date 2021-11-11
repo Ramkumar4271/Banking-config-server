@@ -40,7 +40,7 @@ endpoints:
 eureka:
   instance:
     preferIpAddress: 'true'
-    instanceId: ${server.address}:${spring.application.name}:${server.port}
+    instanceId: ${server.address}:${server.port}
     hostname: ${server.address}
     ipAddress: ${server.address}
   client:
