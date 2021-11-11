@@ -13,7 +13,6 @@ accounts:
   
 server:
   port: '8090'
-  address: 'localhost'
   servlet:
     context-path: '/banking'
     
@@ -40,9 +39,6 @@ endpoints:
 eureka:
   instance:
     preferIpAddress: 'true'
-    instanceId: ${server.address}:${spring.application.name}:${server.port}
-    hostname: ${server.address}
-    ipAddress: ${server.address}
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
