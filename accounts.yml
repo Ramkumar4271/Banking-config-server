@@ -12,8 +12,6 @@ accounts:
   msg: Welcome to the Banking Accounts Default application read from GIT just added to verify from Github
   
 eureka:
-  instance:
-    preferIpAddress: 'true'
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
