@@ -12,6 +12,8 @@ accounts:
   msg: Welcome to the Banking Accounts Dev application added in Githu
   
 eureka:
+  instance:
+    preferIpAddress: 'true'
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
