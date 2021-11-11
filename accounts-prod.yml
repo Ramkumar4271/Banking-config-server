@@ -12,8 +12,6 @@ accounts:
   msg: Welcome to the Banking Accounts Prod application from GITHUB--->
 
 eureka:
-  instance:
-    preferIpAddress: 'true'
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
