@@ -11,9 +11,38 @@ accounts:
     - Washington
   msg: Welcome to the Banking Accounts Default application read from GIT just added to verify from Github
   
+server:
+  port: '8090'
+  address: 'localhost'
+  servlet:
+    context-path: '/banking'
+    
+## Configuring info endpoint
+info:
+  app:
+    name: 'Accounts Microservice'
+    description: 'Banking Accounts Application'
+    version: '1.0.0'    
+    
+management:
+  endpoint:
+    shutdown:
+      enabled: 'true'
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+endpoints:
+  shutdown:
+    enabled: 'true'
+    
 eureka:
   instance:
     preferIpAddress: 'true'
+    instanceId: ${server.address}:${spring.application.name}:${server.port}
+    hostname: ${server.address}
+    ipAddress: ${server.address}
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
