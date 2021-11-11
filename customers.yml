@@ -12,7 +12,7 @@ customers:
   msg: Welcome to the Banking customers Default application
 
 server:
-  port: '8090'
+  port: '9000'
   servlet:
     context-path: '/banking'
     
