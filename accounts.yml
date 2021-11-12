@@ -44,3 +44,15 @@ eureka:
     registerWithEureka: 'true'
     serviceUrl:
       defaultZone: 'http://localhost:8080/eureka/'
+      
+resilience4j:
+  circuitbreaker:
+    instances:
+      detailsForCustomerSupportApp:
+        failureRateThreshold: '50'
+        waitDurationInOpenState: '30000'
+        minimumNumberOfCalls: '5'
+        permittedNumberOfCallsInHalfOpenState: '2'
+    configs:
+      default:
+        registerHealthIndicator: 'true'   
