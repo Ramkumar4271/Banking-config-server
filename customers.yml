@@ -64,3 +64,12 @@ resilience4j:
     configs:
       default:
         registerHealthIndicator: 'true'
+   ratelimiter:
+    instances:
+      sayHelloSupport:
+        limitRefreshPeriod: '5000'
+        timeoutDuration: '5000'
+        limitForPeriod: '1'
+    configs:
+      default:
+        registerHealthIndicator: 'true'
