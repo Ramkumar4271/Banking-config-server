@@ -64,7 +64,3 @@ resilience4j:
     configs:
       default:
         registerHealthIndicator: 'true'   
-        
-        
-resilience4j:
-         
