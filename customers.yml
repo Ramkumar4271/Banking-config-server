@@ -66,7 +66,7 @@ resilience4j:
         registerHealthIndicator: 'true'
   ratelimiter:
     instances:
-      sayHelloSupport:
+      sayHello:
         limitRefreshPeriod: '5000'
         timeoutDuration: '5000'
         limitForPeriod: '1'
