@@ -48,7 +48,7 @@ eureka:
 resilience4j:
   circuitbreaker:
     instances:
-      detailsForCustomerSupportApp:
+      getCardsFallback:
         failureRateThreshold: '50'
         waitDurationInOpenState: '30000'
         minimumNumberOfCalls: '5'
