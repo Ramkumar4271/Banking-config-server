@@ -1,0 +1,32 @@
+## Configuring info endpoint
+info:
+  app:
+    version: 1.0.0
+    name: Gateway Server Microservice
+    description: Banking Gateway Server Application   
+    
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: 'true'
+          lowerCaseServiceId: 'true'
+          
+logging:
+  level:
+    com:
+      banking:
+        gateway: DEBUG
+        
+server:
+  port: '8000'
+  
+eureka:
+  instance:
+    preferIpAddress: 'true'
+  client:
+    fetchRegistry: 'true'
+    registerWithEureka: 'true'
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/  
