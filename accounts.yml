@@ -13,8 +13,8 @@ accounts:
   
 server:
   port: '8090'
-  servlet:
-    context-path: '/banking'
+#  servlet:
+#    context-path: '/banking'
     
 ## Configuring info endpoint
 info:
