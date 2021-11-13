@@ -10,7 +10,7 @@ spring:
     gateway:
       discovery:
         locator:
-#          enabled: 'true'
+          enabled: 'true'
           lowerCaseServiceId: 'true'
           
 logging:
