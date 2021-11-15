@@ -73,3 +73,10 @@ resilience4j:
     configs:
       default:
         registerHealthIndicator: 'true'
+        
+spring:     
+  sleuth:
+    sampler:
+      percentage: '1'
+  zipkin:
+    baseUrl: http://localhost:9411/         
