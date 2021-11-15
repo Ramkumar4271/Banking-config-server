@@ -13,8 +13,8 @@ cards:
   
 server:
   port: '9010'
-  servlet:
-    context-path: '/banking'
+#  servlet:
+#    context-path: '/banking
     
 ## Configuring info endpoint
 info:
