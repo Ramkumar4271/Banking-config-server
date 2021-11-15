@@ -13,8 +13,8 @@ loans:
   
 server:
   port: '9020'
-  servlet:
-    context-path: '/banking'
+#  servlet:
+#    context-path: '/banking
     
 ## Configuring info endpoint
 info:
